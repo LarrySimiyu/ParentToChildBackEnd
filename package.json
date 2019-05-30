@@ -1,0 +1,32 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarrySimiyu/TechnicalTestBackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarrySimiyu/TechnicalTestBackEnd/issues"
+  },
+  "homepage": "https://github.com/LarrySimiyu/TechnicalTestBackEnd#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.17.0",
+    "morgan": "^1.9.1",
+    "node": "^12.3.1",
+    "npm": "^6.9.0",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
